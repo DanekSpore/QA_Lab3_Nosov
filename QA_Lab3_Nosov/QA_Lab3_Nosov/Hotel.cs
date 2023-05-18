@@ -14,7 +14,7 @@ namespace QA_Lab3_Nosov
         {
 
             private Room R1 = new Room(), R2 = new Room(); // 2 Номера
-            private int Season;
+            private int Season; // Длительность сезона в днях
 
         /// <summary>
         /// Метод инициализации данных отеля с двумя номерами.
@@ -27,13 +27,13 @@ namespace QA_Lab3_Nosov
         /// <param name="L1"> Пометка Люкс для первого номера (0 или 1)</param>
         /// <param name="L2"> Пометка Люкс для второго номера (0 или 1)</param>
         public void Init(int S1, int S2, float P1, float P2, int SD, float L1, float L2)
-            {
-                R1.Init(S1, P1, L1);
-                R2.Init(S2, P2, L2);
+            { // Инициализация данных отеля
+                R1.Init(S1, P1, L1); // 1 номер
+                R2.Init(S2, P2, L2); // 2 номер
                 Season = SD;
 
                 if (Season < 1)
-                {
+                { // Длительность сезона должна быть больше 0
                     throw new ArgumentOutOfRangeException(nameof(Season));
                 }
             }
@@ -41,7 +41,7 @@ namespace QA_Lab3_Nosov
         /// <summary>
         /// Метод чтения с консоли данных отеля с двумя номерами.
         /// </summary>
-        public void Read()
+        public void Read() // Чтение данных с консоли об отеле
             {
                 Console.WriteLine("Номер 1: ");
                 R1.Read();
@@ -54,7 +54,7 @@ namespace QA_Lab3_Nosov
         /// <summary>
         /// Метод отображения в консоли данных об отеле с двумя номерами.
         /// </summary>
-        public void Display()
+        public void Display() // Вывод данных об отеле
             {
                 Console.WriteLine("Номер 1: ");
                 R1.Display();
@@ -73,7 +73,7 @@ namespace QA_Lab3_Nosov
         /// $$Income Expected = (Price_{1} + Price_{2}) * Season Duration$$
         /// </returns>
 
-        public float TotalExpectedHotelIncomeForTheSeason()
+        public float TotalExpectedHotelIncomeForTheSeason() // Суммарный доход отеля за сезон
             {
                 return (R1.GetPrice() + R2.GetPrice()) * Season;
             }
@@ -84,7 +84,7 @@ namespace QA_Lab3_Nosov
         /// <returns>
         /// Метод возвращает поле от вспомогательного класса, привлекательность которого выше, т. е. соотношение Цена/Площадь меньше.
         /// </returns>
-        public Room TheMostAttractive()
+        public Room TheMostAttractive() // Самый привлекательный номер
             {
                 float Att1 = R1.Attraction(), Att2 = R2.Attraction();
                 if (Att1 < Att2) // Если первый номер выгоднее
