@@ -4,6 +4,7 @@ using System.Text;
 
 namespace QA_Lab3_Nosov
 {
+    /// \author Danil Nosov
     /// <summary>
     /// Вспомогательный класс Room содержит информацию о номере в отеле.
     /// </summary>
@@ -20,6 +21,7 @@ namespace QA_Lab3_Nosov
         /// <param name="S"> Площадь номера</param>
         /// <param name="P"> Цена номера</param>
         /// <param name="L"> Пометка Люкс для номера (0 или 1)</param>
+        /// \callergraph
         public void Init(int S, float P, float L) // инициализация площади и стоимости
             {
                 Square = S;

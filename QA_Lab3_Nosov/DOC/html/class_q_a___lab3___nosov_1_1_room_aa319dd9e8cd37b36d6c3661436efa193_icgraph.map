@@ -1,0 +1,4 @@
+<map id="QA_Lab3_Nosov.Room.GetPrice" name="QA_Lab3_Nosov.Room.GetPrice">
+<area shape="rect" id="node1" title="Метод используется для передачи цены номера с учётом пометки Luxury. Если номер Люкс &#45; цена умножаетс..." alt="" coords="286,13,496,40"/>
+<area shape="rect" id="node2" href="$class_q_a___lab3___nosov_1_1_hotel.html#a4cde0b889abb0fecbd5303b5a16cb8ae" title="Метод посчёта ожидаемого дохода отеля за весь сезон." alt="" coords="5,5,238,48"/>
+</map>

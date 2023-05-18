@@ -4,10 +4,12 @@ using System.Text;
 
 namespace QA_Lab3_Nosov
 {
+    /// \author Danil Nosov
     /// <summary>
     /// \brief Основной класс Hotel содержит информацию об отеле и ипспользует вспомогательный класс Room.
     /// </summary>
-    /// image Hotel.jpg "Hotel" width=300 height=200
+    /// \image html hotel.jpg
+    /// \callergraph
     public class Hotel
         {
 
@@ -80,12 +82,12 @@ namespace QA_Lab3_Nosov
         /// Метод находит из двух номеров самый выгодный.
         /// </summary>
         /// <returns>
-        /// Метод возвращает поле от вспомогательного класса.
+        /// Метод возвращает поле от вспомогательного класса, привлекательность которого выше, т. е. соотношение Цена/Площадь меньше.
         /// </returns>
         public Room TheMostAttractive()
             {
                 float Att1 = R1.Attraction(), Att2 = R2.Attraction();
-                if (Att1 < Att2)
+                if (Att1 < Att2) // Если первый номер выгоднее
                 {
                     return R1;
                 }

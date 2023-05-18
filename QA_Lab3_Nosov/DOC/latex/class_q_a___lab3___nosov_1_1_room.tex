@@ -1,20 +1,27 @@
-\hypertarget{class_q_a___lab3___nosov_1_1_room}{}\doxysection{QA\+\_\+\+Lab3\+\_\+\+Nosov.\+Room Class Reference}
+\hypertarget{class_q_a___lab3___nosov_1_1_room}{}\doxysection{Класс QA\+\_\+\+Lab3\+\_\+\+Nosov.\+Room}
 \label{class_q_a___lab3___nosov_1_1_room}\index{QA\_Lab3\_Nosov.Room@{QA\_Lab3\_Nosov.Room}}
 
 
 Вспомогательный класс Room содержит информацию о номере в отеле.  
 
 
-\doxysubsection*{Public Member Functions}
+
+
+Граф связей класса QA\+\_\+\+Lab3\+\_\+\+Nosov.\+Room\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{class_q_a___lab3___nosov_1_1_room__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_room_ab1b4e5a734cf35f2f590a5e1583b6052}{Init}} (int S, float P, float L)
 \begin{DoxyCompactList}\small\item\em Метод инициализации данных номера отеля. \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_room_ad9133856f514801123b87479ba795ab7}\label{class_q_a___lab3___nosov_1_1_room_ad9133856f514801123b87479ba795ab7}} 
-void {\bfseries Read} ()
+void \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_room_ad9133856f514801123b87479ba795ab7}{Read}} ()
 \begin{DoxyCompactList}\small\item\em Метод чтения с консоли данных о номере. \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_room_a26f362d9f830a2c7d54f4fa1beea2a2c}\label{class_q_a___lab3___nosov_1_1_room_a26f362d9f830a2c7d54f4fa1beea2a2c}} 
-void {\bfseries Display} ()
+void \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_room_a26f362d9f830a2c7d54f4fa1beea2a2c}{Display}} ()
 \begin{DoxyCompactList}\small\item\em Метод отображения в консоли данных об отеле с двумя номерами. \end{DoxyCompactList}\item 
 float \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_room_a7241bce8013025c906193969b21c7596}{Attraction}} ()
 \begin{DoxyCompactList}\small\item\em Метод посчёта привлекательности номера. \end{DoxyCompactList}\item 
@@ -22,10 +29,15 @@ float \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_room_aa319dd9e8cd37b36d6c366
 \begin{DoxyCompactList}\small\item\em Метод используется для передачи цены номера с учётом пометки Luxury. Если номер Люкс -\/ цена умножается на 2. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Detailed Description}
+\doxysubsection{Подробное описание}
 Вспомогательный класс Room содержит информацию о номере в отеле. 
 
-\doxysubsection{Member Function Documentation}
+\begin{DoxyAuthor}{Автор}
+Danil Nosov 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Методы}
 \mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_room_a7241bce8013025c906193969b21c7596}\label{class_q_a___lab3___nosov_1_1_room_a7241bce8013025c906193969b21c7596}} 
 \index{QA\_Lab3\_Nosov.Room@{QA\_Lab3\_Nosov.Room}!Attraction@{Attraction}}
 \index{Attraction@{Attraction}!QA\_Lab3\_Nosov.Room@{QA\_Lab3\_Nosov.Room}}
@@ -36,9 +48,33 @@ float \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_room_aa319dd9e8cd37b36d6c366
 
 Метод посчёта привлекательности номера. 
 
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Возвращает}
 Метод использует поля класса Price и Square и высчитывает привлекательность номера по типу Цена/Площадь. Получается цена за 1 м² -\/ чем больше число, тем дороже. Данное отношение высчитывается по формуле\+: \$\$\+Attraction = Price $\ast$ Square\$\$ 
 \end{DoxyReturn}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3___nosov_1_1_room_a7241bce8013025c906193969b21c7596_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_room_a26f362d9f830a2c7d54f4fa1beea2a2c}\label{class_q_a___lab3___nosov_1_1_room_a26f362d9f830a2c7d54f4fa1beea2a2c}} 
+\index{QA\_Lab3\_Nosov.Room@{QA\_Lab3\_Nosov.Room}!Display@{Display}}
+\index{Display@{Display}!QA\_Lab3\_Nosov.Room@{QA\_Lab3\_Nosov.Room}}
+\doxysubsubsection{\texorpdfstring{Display()}{Display()}}
+{\footnotesize\ttfamily void QA\+\_\+\+Lab3\+\_\+\+Nosov.\+Room.\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод отображения в консоли данных об отеле с двумя номерами. 
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3___nosov_1_1_room_a26f362d9f830a2c7d54f4fa1beea2a2c_icgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_room_aa319dd9e8cd37b36d6c3661436efa193}\label{class_q_a___lab3___nosov_1_1_room_aa319dd9e8cd37b36d6c3661436efa193}} 
 \index{QA\_Lab3\_Nosov.Room@{QA\_Lab3\_Nosov.Room}!GetPrice@{GetPrice}}
 \index{GetPrice@{GetPrice}!QA\_Lab3\_Nosov.Room@{QA\_Lab3\_Nosov.Room}}
@@ -49,9 +85,16 @@ float \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_room_aa319dd9e8cd37b36d6c366
 
 Метод используется для передачи цены номера с учётом пометки Luxury. Если номер Люкс -\/ цена умножается на 2. 
 
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Возвращает}
 Метод возвращает полученную цену (Price). 
 \end{DoxyReturn}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3___nosov_1_1_room_aa319dd9e8cd37b36d6c3661436efa193_icgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_room_ab1b4e5a734cf35f2f590a5e1583b6052}\label{class_q_a___lab3___nosov_1_1_room_ab1b4e5a734cf35f2f590a5e1583b6052}} 
 \index{QA\_Lab3\_Nosov.Room@{QA\_Lab3\_Nosov.Room}!Init@{Init}}
 \index{Init@{Init}!QA\_Lab3\_Nosov.Room@{QA\_Lab3\_Nosov.Room}}
@@ -63,7 +106,7 @@ float \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_room_aa319dd9e8cd37b36d6c366
 Метод инициализации данных номера отеля. 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Аргументы}
 {\em S} & Площадь номера\\
 \hline
 {\em P} & Цена номера\\
@@ -71,8 +114,32 @@ float \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_room_aa319dd9e8cd37b36d6c366
 {\em L} & Пометка Люкс для номера (0 или 1)\\
 \hline
 \end{DoxyParams}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3___nosov_1_1_room_ab1b4e5a734cf35f2f590a5e1583b6052_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_room_ad9133856f514801123b87479ba795ab7}\label{class_q_a___lab3___nosov_1_1_room_ad9133856f514801123b87479ba795ab7}} 
+\index{QA\_Lab3\_Nosov.Room@{QA\_Lab3\_Nosov.Room}!Read@{Read}}
+\index{Read@{Read}!QA\_Lab3\_Nosov.Room@{QA\_Lab3\_Nosov.Room}}
+\doxysubsubsection{\texorpdfstring{Read()}{Read()}}
+{\footnotesize\ttfamily void QA\+\_\+\+Lab3\+\_\+\+Nosov.\+Room.\+Read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 
-The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+
+Метод чтения с консоли данных о номере. 
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3___nosov_1_1_room_ad9133856f514801123b87479ba795ab7_icgraph}
+\end{center}
+\end{figure}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Files/\+Git\+Hub/\+QA\+\_\+\+Lab3\+\_\+\+Nosov/\+QA\+\_\+\+Lab3\+\_\+\+Nosov/Room.\+cs\end{DoxyCompactItemize}
+D\+:/\+Files/\+Git\+Hub/\+QA\+\_\+\+Lab3\+\_\+\+Nosov/\+QA\+\_\+\+Lab3\+\_\+\+Nosov/\+QA\+\_\+\+Lab3\+\_\+\+Nosov/\mbox{\hyperlink{_room_8cs}{Room.\+cs}}\end{DoxyCompactItemize}

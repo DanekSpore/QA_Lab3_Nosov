@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Files\\GitHub\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov.csproj": {}
+    "D:\\Files\\GitHub\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov.csproj": {}
   },
   "projects": {
-    "D:\\Files\\GitHub\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov.csproj": {
+    "D:\\Files\\GitHub\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Files\\GitHub\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov.csproj",
+        "projectUniqueName": "D:\\Files\\GitHub\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov.csproj",
         "projectName": "QA_Lab3_Nosov",
-        "projectPath": "D:\\Files\\GitHub\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov.csproj",
+        "projectPath": "D:\\Files\\GitHub\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov.csproj",
         "packagesPath": "C:\\Users\\DanSp\\.nuget\\packages\\",
-        "outputPath": "D:\\Files\\GitHub\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\obj\\",
+        "outputPath": "D:\\Files\\GitHub\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\QA_Lab3_Nosov\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",

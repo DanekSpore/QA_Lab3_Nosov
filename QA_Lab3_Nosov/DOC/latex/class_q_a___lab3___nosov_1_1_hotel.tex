@@ -1,20 +1,27 @@
-\hypertarget{class_q_a___lab3___nosov_1_1_hotel}{}\doxysection{QA\+\_\+\+Lab3\+\_\+\+Nosov.\+Hotel Class Reference}
+\hypertarget{class_q_a___lab3___nosov_1_1_hotel}{}\doxysection{Класс QA\+\_\+\+Lab3\+\_\+\+Nosov.\+Hotel}
 \label{class_q_a___lab3___nosov_1_1_hotel}\index{QA\_Lab3\_Nosov.Hotel@{QA\_Lab3\_Nosov.Hotel}}
 
 
 Основной класс Hotel содержит информацию об отеле и ипспользует вспомогательный класс Room.  
 
 
-\doxysubsection*{Public Member Functions}
+
+
+Граф связей класса QA\+\_\+\+Lab3\+\_\+\+Nosov.\+Hotel\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_q_a___lab3___nosov_1_1_hotel__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Открытые члены}
 \begin{DoxyCompactItemize}
 \item 
 void \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_hotel_aec530227307c8652785e805a8c56c5d5}{Init}} (int S1, int S2, float P1, float P2, int SD, float L1, float L2)
 \begin{DoxyCompactList}\small\item\em Метод инициализации данных отеля с двумя номерами. \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_hotel_abb1f22900aa5ffbf3dc0ae25087d32d7}\label{class_q_a___lab3___nosov_1_1_hotel_abb1f22900aa5ffbf3dc0ae25087d32d7}} 
-void {\bfseries Read} ()
+void \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_hotel_abb1f22900aa5ffbf3dc0ae25087d32d7}{Read}} ()
 \begin{DoxyCompactList}\small\item\em Метод чтения с консоли данных отеля с двумя номерами. \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_hotel_a845b4dc062df597a9f3cff0339cc0565}\label{class_q_a___lab3___nosov_1_1_hotel_a845b4dc062df597a9f3cff0339cc0565}} 
-void {\bfseries Display} ()
+void \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_hotel_a845b4dc062df597a9f3cff0339cc0565}{Display}} ()
 \begin{DoxyCompactList}\small\item\em Метод отображения в консоли данных об отеле с двумя номерами. \end{DoxyCompactList}\item 
 float \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_hotel_a4cde0b889abb0fecbd5303b5a16cb8ae}{Total\+Expected\+Hotel\+Income\+For\+The\+Season}} ()
 \begin{DoxyCompactList}\small\item\em Метод посчёта ожидаемого дохода отеля за весь сезон. \end{DoxyCompactList}\item 
@@ -22,12 +29,32 @@ float \mbox{\hyperlink{class_q_a___lab3___nosov_1_1_hotel_a4cde0b889abb0fecbd530
 \begin{DoxyCompactList}\small\item\em Метод находит из двух номеров самый выгодный. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\doxysubsection{Detailed Description}
+\doxysubsection{Подробное описание}
 Основной класс Hotel содержит информацию об отеле и ипспользует вспомогательный класс Room. 
 
-image Hotel.\+jpg \char`\"{}\+Hotel\char`\"{} width=300 height=200 
+\begin{DoxyAuthor}{Автор}
+Danil Nosov
+\end{DoxyAuthor}
+ 
 
-\doxysubsection{Member Function Documentation}
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_hotel_a845b4dc062df597a9f3cff0339cc0565}\label{class_q_a___lab3___nosov_1_1_hotel_a845b4dc062df597a9f3cff0339cc0565}} 
+\index{QA\_Lab3\_Nosov.Hotel@{QA\_Lab3\_Nosov.Hotel}!Display@{Display}}
+\index{Display@{Display}!QA\_Lab3\_Nosov.Hotel@{QA\_Lab3\_Nosov.Hotel}}
+\doxysubsubsection{\texorpdfstring{Display()}{Display()}}
+{\footnotesize\ttfamily void QA\+\_\+\+Lab3\+\_\+\+Nosov.\+Hotel.\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод отображения в консоли данных об отеле с двумя номерами. 
+
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3___nosov_1_1_hotel_a845b4dc062df597a9f3cff0339cc0565_cgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_hotel_aec530227307c8652785e805a8c56c5d5}\label{class_q_a___lab3___nosov_1_1_hotel_aec530227307c8652785e805a8c56c5d5}} 
 \index{QA\_Lab3\_Nosov.Hotel@{QA\_Lab3\_Nosov.Hotel}!Init@{Init}}
 \index{Init@{Init}!QA\_Lab3\_Nosov.Hotel@{QA\_Lab3\_Nosov.Hotel}}
@@ -39,7 +66,7 @@ image Hotel.\+jpg \char`\"{}\+Hotel\char`\"{} width=300 height=200
 Метод инициализации данных отеля с двумя номерами. 
 
 
-\begin{DoxyParams}{Parameters}
+\begin{DoxyParams}{Аргументы}
 {\em S1} & Площадь первого номера\\
 \hline
 {\em S2} & Площадь второго номера\\
@@ -55,6 +82,30 @@ image Hotel.\+jpg \char`\"{}\+Hotel\char`\"{} width=300 height=200
 {\em L2} & Пометка Люкс для второго номера (0 или 1)\\
 \hline
 \end{DoxyParams}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3___nosov_1_1_hotel_aec530227307c8652785e805a8c56c5d5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_hotel_abb1f22900aa5ffbf3dc0ae25087d32d7}\label{class_q_a___lab3___nosov_1_1_hotel_abb1f22900aa5ffbf3dc0ae25087d32d7}} 
+\index{QA\_Lab3\_Nosov.Hotel@{QA\_Lab3\_Nosov.Hotel}!Read@{Read}}
+\index{Read@{Read}!QA\_Lab3\_Nosov.Hotel@{QA\_Lab3\_Nosov.Hotel}}
+\doxysubsubsection{\texorpdfstring{Read()}{Read()}}
+{\footnotesize\ttfamily void QA\+\_\+\+Lab3\+\_\+\+Nosov.\+Hotel.\+Read (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод чтения с консоли данных отеля с двумя номерами. 
+
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3___nosov_1_1_hotel_abb1f22900aa5ffbf3dc0ae25087d32d7_cgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_hotel_afa637992718d92490e200232c4f533ec}\label{class_q_a___lab3___nosov_1_1_hotel_afa637992718d92490e200232c4f533ec}} 
 \index{QA\_Lab3\_Nosov.Hotel@{QA\_Lab3\_Nosov.Hotel}!TheMostAttractive@{TheMostAttractive}}
 \index{TheMostAttractive@{TheMostAttractive}!QA\_Lab3\_Nosov.Hotel@{QA\_Lab3\_Nosov.Hotel}}
@@ -65,9 +116,16 @@ image Hotel.\+jpg \char`\"{}\+Hotel\char`\"{} width=300 height=200
 
 Метод находит из двух номеров самый выгодный. 
 
-\begin{DoxyReturn}{Returns}
-Метод возвращает поле от вспомогательного класса. 
+\begin{DoxyReturn}{Возвращает}
+Метод возвращает поле от вспомогательного класса, привлекательность которого выше, т. е. соотношение Цена/Площадь меньше. 
 \end{DoxyReturn}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3___nosov_1_1_hotel_afa637992718d92490e200232c4f533ec_cgraph}
+\end{center}
+\end{figure}
 \mbox{\Hypertarget{class_q_a___lab3___nosov_1_1_hotel_a4cde0b889abb0fecbd5303b5a16cb8ae}\label{class_q_a___lab3___nosov_1_1_hotel_a4cde0b889abb0fecbd5303b5a16cb8ae}} 
 \index{QA\_Lab3\_Nosov.Hotel@{QA\_Lab3\_Nosov.Hotel}!TotalExpectedHotelIncomeForTheSeason@{TotalExpectedHotelIncomeForTheSeason}}
 \index{TotalExpectedHotelIncomeForTheSeason@{TotalExpectedHotelIncomeForTheSeason}!QA\_Lab3\_Nosov.Hotel@{QA\_Lab3\_Nosov.Hotel}}
@@ -78,11 +136,18 @@ image Hotel.\+jpg \char`\"{}\+Hotel\char`\"{} width=300 height=200
 
 Метод посчёта ожидаемого дохода отеля за весь сезон. 
 
-\begin{DoxyReturn}{Returns}
+\begin{DoxyReturn}{Возвращает}
 Метод использует поля класса Room и его метод Get\+Price(), вследствие чего возвращает ожидаемый доход отеля, что высчитывается по формуле\+: \$\$\+Income Expected = (Price\+\_\+\{1\} + Price\+\_\+\{2\}) $\ast$ Season Duration\$\$ 
 \end{DoxyReturn}
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_q_a___lab3___nosov_1_1_hotel_a4cde0b889abb0fecbd5303b5a16cb8ae_cgraph}
+\end{center}
+\end{figure}
 
 
-The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/\+Files/\+Git\+Hub/\+QA\+\_\+\+Lab3\+\_\+\+Nosov/\+QA\+\_\+\+Lab3\+\_\+\+Nosov/Hotel.\+cs\end{DoxyCompactItemize}
+D\+:/\+Files/\+Git\+Hub/\+QA\+\_\+\+Lab3\+\_\+\+Nosov/\+QA\+\_\+\+Lab3\+\_\+\+Nosov/\+QA\+\_\+\+Lab3\+\_\+\+Nosov/\mbox{\hyperlink{_hotel_8cs}{Hotel.\+cs}}\end{DoxyCompactItemize}
