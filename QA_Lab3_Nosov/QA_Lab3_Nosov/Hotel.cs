@@ -7,7 +7,7 @@ namespace QA_Lab3_Nosov
     /// <summary>
     /// \brief Основной класс Hotel содержит информацию об отеле и ипспользует вспомогательный класс Room.
     /// </summary>
-    /// image{inline} html Hotel.jpg "Hotel" width=300 height=200
+    /// image Hotel.jpg "Hotel" width=300 height=200
     public class Hotel
         {
 
